@@ -29,6 +29,8 @@ ffbuild_dockerbuild() {
 
     local myconf=(
         --prefix="$FFBUILD_PREFIX"
+        --sysconfdir=/etc
+        --datadir=/usr/share
         --disable-shared
         --enable-static
     )
