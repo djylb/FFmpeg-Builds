@@ -13,6 +13,7 @@ ffbuild_depends() {
     echo fonts
     echo lcevcdec
     echo libvorbis
+    echo alsa
     echo opencl
     echo pulseaudio
     echo vmaf
